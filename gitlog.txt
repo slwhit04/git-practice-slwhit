@@ -1,3 +1,6 @@
+68cf602 add gitlog
+c73e86d add history
+fea5f2f added gitlog
 09ac16a Merge pull request #2 from brachel1/feature-brachel1
 5945188 new changes
 114174a branch changes
