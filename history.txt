@@ -1,0 +1,155 @@
+   10  git clone https://github.com/nsandholtz/xc_research.git
+   15  git config --global user.email "slwhit@byu.edu"
+   16  git config --global user.name "Sarah Whitaker"
+   34  git log
+   49  git log
+   63  git log
+   75  git clone https://github.com/techwithtim/Python-Platformer/tree/e015b06329db956636034c77a8e6895219a2e67d/assets
+   76  git clone assets
+   77  git clone https://github.com/techwithtim/Python-Platformer.git
+   79  git clone https://github.com/BYUCS235/cs235-assignments.git
+  101  git clone https://github.com/BYUCS235/cs235-assignments.git
+  134  mkdir git-practices
+  135  cd git-practices/
+  137  git init
+  138  git status
+  140  mkdir git-practice-slwhit
+  141  rm git-practice-slwhit/
+  146  rm git-practices/
+  147  mkdir git-practice-slwhit
+  148  cd git-practice-slwhit/
+  150  git init
+  153  cd git-practice
+  154  rm -rf .git
+  156  rm git-practice
+  157  rm git-practices
+  159  cd git-practice-slwhit/
+  162  cd git-practices
+  164  rm -rf .git
+  165  rm git-practice-slwhit/
+  166  rmdir git-practice-slwhit/
+  169  rmdir git-practices
+  171  git clone https://github.com/esnt/another-stat386-theme.git
+  175  git remote set-url origin https://github.com/slwhit/my_blog.git
+  176  git push origin main
+  177  git remote set-url origin https://github.com/slwhit04/my_blog.git
+  178  git push origin main
+  179  git pull origin main --allow-unrelated-histories
+  180  git rm README.md
+  181  git commit -m "Deleted README.md to resolve conflict"
+  182  git push origin main
+  183  git add .
+  188  cd git-practice-slwhit/
+  195  git clone https://github.com/slwhit04/my_blog.git
+  197  git add .
+  199  git add .
+  200  git commit -m "Updated _config.yml"
+  201  git push origin main
+  205  cd git-practice-slwhit/
+  210  git status
+  211  git add .
+  212  git status
+  213  git commit -m 'add file'
+  215  git status
+  217  git add .
+  218  git commit -m 'commit file2'
+  219  git status
+  220  git log
+  221  touch .gitignore
+  222  git ad .
+  223  git add .
+  224  git commit -m 'creating gitignore'
+  225  git status
+  226  git remote add origin git@github.com:slwhit04/git-practice-slwhit.git
+  227  git remote -v
+  228  git push -u origin main
+  240  cd git-practice-slwhit/
+  244  cd .gitignore
+  245  echo "api-keys.text" > .gitignore
+  246  git commit -m "gitignore should ignore api-keys.txt now"
+  248  git status
+  250  git checkout -b features
+  251  git log
+  253  git add new_features.txt
+  254  git commit -m "add empty file"
+  258  cd git-practice-slwhit/
+  260  git add file1.txt
+  261  git commit -m "hopefully has some words now"
+  263  git add file2.txt
+  264  git commit -m "hopefully has some words now 2"
+  265  git add api-keys.txt 
+  266  git commit -m "not really sure what is going on, maybe commiting api, maybe not?"
+  269  git add Readme.md
+  270  git commit -m "add read.me with title and description"
+  271  git add new_features.txt 
+  272  git commit -m "new features"
+  274  git checkout -b features
+  279  cd git-practice-slwhit/
+  281  git log
+  283  cd git-practice-slwhit/
+  284  git log
+  285  git checkout main
+  287  git add file1.txt 
+  288  git commit -m "add text to first file"
+  289  git add file1.txt 
+  290  git commit -m "add more text to first file"
+  291  git merge features
+  292  git status
+  293  git add Readme.md
+  294  git commit -m "commit"
+  295  git add file1.txt 
+  296  git commit
+  297  git status
+  298  cd git-practice-slwhit/
+  299  git status
+  300  git add .gitignore 
+  301  git commit -m "update gitignore"
+  302  git status
+  303  git merge features
+  304  git log
+  305  git add new_features.txt 
+  306  git commit -m "edit new_features"4
+  307  git commit -m "edit new_features"
+  308  git checkout main
+  309  git checkout features
+  310  git add new_features.txt 
+  311  git commit -m "modified new features"
+  312  git checkout main
+  313  git merge features
+  314  git add new_features.txt 
+  315  git commit -m "fixed errors"
+  316  git branch -d features
+  317  git remote add origin git@github.com:slwhit04/git-practice-slwhit.git
+  318  git push -u origin main
+  326  git clone git@github.com:slwhit04/git-practice-brachel1.git
+  328  git checkout -b feature-slwhit
+  329  cd git-practice-brachel1/
+  330  git checkout -b feature-slwhit
+  332  git add file3.txt
+  333  git commit -m "added file3"
+  334  git origin feature-slwhit
+  335  git push origin feature-slwhit
+  336  git pull
+  338  cd git-practice-slwhit/
+  339  git pull
+  341  git log --oneline > gitlog.txt
+  342  history 0 | grep git > history.txt
+  343  add gitlog.txt
+  344  git add gitlog.txt
+  345  git commit -m "added gitlog"
+  346  git add history.txt
+  347  git commit -m "add history"
+  348  git status
+  351  cd git-practice-slwhit/
+  353  git mv file1.txt file_1.txt
+  354  git mv file2.txt file_2.txt
+  356  git add gitlog.txt
+  357  git commit -m "add gitlog"
+  358  git push origin slwhit
+  359  git push origin feature-slwhit
+  360  git push origin github.com:slwhit04/git-practice-slwhit.git
+  361  git push origin git-practice-slwhit.git
+  363  git push origin main
+  364  cd git-practice-slwhit/
+  365  git log --oneline > gitlog.txt
+  366  history | grep git >history.txt
