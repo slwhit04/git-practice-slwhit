@@ -1,0 +1,19 @@
+09ac16a Merge pull request #2 from brachel1/feature-brachel1
+5945188 new changes
+114174a branch changes
+086cc8b fixed errors
+cd5d478 modified new features
+c30e429 edit new_features4
+fd3b55c update gitignore
+024623a Merge branch 'features'
+3b7e69c add more text to first file
+c59bd68 add text to first file
+5ab0db7 new features
+7ca1675 add read.me with title and description
+ea0d188 not really sure what is going on, maybe commiting api, maybe not?
+d593e26 hopefully has some words now 2
+0b53837 hopefully has some words now
+e99d6ad add empty file
+580715c creating gitignore
+d1ec230 commit file2
+16f1315 add file
